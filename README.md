@@ -1,4 +1,4 @@
-This is a fifa 2018 betting game developped using meteor/react/bootstrap. It is based on https://github.com/lu22do/accounts-boilerplate-react.
+This is a fifa 2018 betting game developped using meteor/react/bootstrap.
 
 Concepts used in this app:
 - Team - a team participating to the world cup

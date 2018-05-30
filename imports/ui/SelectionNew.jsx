@@ -92,6 +92,7 @@ class SelectionNew extends Component {
     return (
       <div className="container">
         <h3>Create a new selection:</h3>
+        <h4>Select one team from the following 8 groups. Those groups were created with the current FIFA Ranking before the World Cup</h4>
         <form id="new-selection-form" action="action" onSubmit={this.handleSubmit}>
 
           <div className="form-group">
