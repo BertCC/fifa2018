@@ -22,15 +22,15 @@ const Welcome = () => (
     <br/>
     <h4>Rules</h4>
     <p>
-    -	Everyone picks any 1 team from each group to form a selection<br/>
+    -	Everyone picks any 1 team from each group to form a selection. Groups were created folowing the FIFA ranking before the WC2018<br/>
     -	You can have similar combination of teams in your selection compared to others but you cannot have the exact set if someone else has it already. So, available selections are first-come-first-serve for a selection.<br/>
-    -	Each player can make 3 selections such as LudoSet1, LudoSet2, Ludoset3.<br/>
+    -	Each player can make 3 selections such as JohnDoeSet1, JohnDoeSet2, JohnDoeSet3.<br/>
     -	How you get points:<br/>
     &nbsp;&nbsp;o	Your teams will keep gaining points for you as long as they keep playing (not eliminated). Wins, draws and goals get you points.<br/>
-    &nbsp;&nbsp;o	Each win gains your selection 3 points, each draw 1 point, each goal scored gains additional Y points (Y = 0.3 during group stage, 0.5 during elimination phase)<br/>
+    &nbsp;&nbsp;o	Each win of a team in your selection makes you gain <b>3</b> points, each draw 1 point, each goal scored gains additional Y points (Y = 0.3 during group stage, 0.5 during elimination phase)<br/>
     &nbsp;&nbsp;o	Penalty kicks are not accounted. Only the winner (3 points) and goals during regulation time from each side are counted for points<br/>
     - After the competition kicks off, it is not possible to add/delete selections.<br/>
-    -	Player with most total points win. In case of a tie, all those folks win.<br/>
+    -	Player with most total points win. In case of a tie, if this is the same team selection, the first player who enters win, if this is different teams selections, all those folks win.<br/>
     </p>
   </div>
 )
