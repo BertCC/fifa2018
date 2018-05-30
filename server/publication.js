@@ -24,8 +24,8 @@ Selections.allow({
       return false;
     }
 
-    // limit selections to 3 per user
-    if (Selections.find({owner: userId}).count() >= 3) {
+    // limit selections to 2 per user
+    if (Selections.find({owner: userId}).count() >= 2) {
       return false;
     }
 
