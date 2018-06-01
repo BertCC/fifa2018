@@ -37,9 +37,9 @@ class SelectionNew extends Component {
     });
     let that = this;
 
-    // limit selections to 3 per user
-    if (Selections.find({owner: Meteor.userId()}).count() >= 3) {
-      alert('Sorry, you cannot create more than 3 selections.')
+    // limit selections to 1 per user
+    if (Selections.find({owner: Meteor.userId()}).count() >= 1) {
+      alert('Sorry, you cannot create more than 1 selection.')
       that.props.history.push('/selection-list');
       return;
     }
@@ -91,7 +91,7 @@ class SelectionNew extends Component {
   render() {
     return (
       <div className="container">
-        <h3>Create a new selection:</h3>
+        <h3>Create your selection:</h3>
         <h4>Select one team from the following 8 groups. Those groups were created with the current FIFA Ranking before the World Cup</h4>
         <form id="new-selection-form" action="action" onSubmit={this.handleSubmit}>
 
