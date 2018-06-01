@@ -16,15 +16,16 @@ import GameStateEdit from './GameStateEdit.jsx';
 
 const Welcome = () => (
   <div className="container">
-    <h3>Welcome to the 2018 FIFA Game !</h3>
+    <h3>Welcome to the 2018 FIFA Game for Consensus !</h3>
     <br/>
     <p>WARNING: This is work in progress and should be used only for testing!</p>
     <br/>
     <h4>Rules</h4>
     <p>
-    -	Everyone picks any 1 team from each group to form a selection. Groups were created folowing the FIFA ranking before the WC2018<br/>
-    -	You can have similar combination of teams in your selection compared to others but you cannot have the exact set if someone else has it already. So, available selections are first-come-first-serve for a selection.<br/>
-    -	Each player can make 2 selections such as JohnDoeSet1, JohnDoeSet2.<br/>
+    -	Everyone picks 1 team from each group to form a selection. Groups were created folowing the FIFA ranking before the WC2018<br/>
+    -	If you pick the same set of team as somebody else, the final ranking will be first-come-first-serve.<br/>
+    -	Each player can make 1 selection, and name it with their name  such as JohnDoeSet ( no email involved here).<br/>
+    -	The selection can be done until June 13th, just before the opening game of FIFA 2018 .<br/>
     -	How you get points:<br/>
     &nbsp;&nbsp;o	Your teams will keep gaining points for you as long as they keep playing (not eliminated). Wins, draws and goals get you points.<br/>
     &nbsp;&nbsp;o	Each win of a team in your selection makes you gain <b>3</b> points, each draw 1 point, each goal scored gains additional Y points (Y = 0.3 during group stage, 0.5 during elimination phase)<br/>
