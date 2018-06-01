@@ -51,7 +51,7 @@ class Register extends Component {
     return (
       <div className="container">
         <div className="panel panel-default">
-          <div className="panel-heading">Create new account</div>
+          <div className="panel-heading">Create new account (please use your name)</div>
           <div className="panel-body">
             <form id="register-form" action="action" onSubmit={this.handleSubmit}>
 
