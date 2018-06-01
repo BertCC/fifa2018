@@ -22,9 +22,8 @@ const Welcome = () => (
     <br/>
     <h4>Rules</h4>
     <p>
-    -	Everyone picks 1 team from each group to form a selection. Groups were created folowing the FIFA ranking before the WC2018<br/>
-    -	If you pick the same set of team as somebody else, the final ranking will be first-come-first-serve.<br/>
-    -	Each player can make 1 selection, and name it with their name  such as JohnDoeSet ( no email involved here).<br/>
+    -	Picks1 team from each group. Groups were created following the FIFA ranking before the WC2018<br/>
+    -	Each player can make 1 selection, please name it with your name like JohnDoeSet (no email involved here).<br/>
     -	The selection can be done until June 13th, just before the opening game of FIFA 2018 .<br/>
     -	How you get points:<br/>
     &nbsp;&nbsp;o	Your teams will keep gaining points for you as long as they keep playing (not eliminated). Wins, draws and goals get you points.<br/>
