@@ -25,10 +25,11 @@ const Welcome = () => (
     -	Pick 1 team from each group by clicking on <Link to="/new-selection">New Selection</Link> . Groups were created following the FIFA ranking before the WC2018<br/>
     -	Each player can make 1 selection, please name it with your name like JohnDoeSet (no email involved here).<br/>
     -	How you get points:<br/>
-    &nbsp;&nbsp;o	Your teams will keep gaining points for you as long as they keep playing (not eliminated). Wins, draws and goals get you points.<br/>
-    &nbsp;&nbsp;o	Each win of a team in your selection makes you gain <b>3</b> points, each draw 1 point, each goal scored gains additional Y points (Y = 0.3 during group stage, 0.5 during elimination phase)<br/>
+    &nbsp;&nbsp;o	During the World Cup, every nations  will play 3 games during the group stage. Then 16 nations will go to the elimination phase<br/>
+    &nbsp;&nbsp;o	The teams you selected will keep gaining points for you as long as they keep playing (not eliminated). Wins, draws and goals get you points.<br/>
+    &nbsp;&nbsp;o	Each win of a team in your selection makes you gain <b>3</b> points, each draw <b>1</b> point, each goal scored gains additional Y points (Y = <b>0.3</b> during group stage, <b>0.5</b> during elimination phase)<br/>
     &nbsp;&nbsp;o	Penalty kicks are not accounted. Only the winner (3 points) and goals during regulation time from each side are counted for points<br/>
-    - After the competition kicks off, it is not possible to create/delete/replace a selection. Your selection can be done until June 13th, just before the opening game of FIFA 2018 <br/>
+    - After the competition kicks off, it is not possible to create/delete/replace a selection. Your selection can be done <b>until June 13th</b>, just before the opening game of FIFA 2018 <br/>
     -	The player with most total points win. In case of a tie, if this is the same team selection, the first player who enters win, if this is different teams selections, all those folks win.<br/>
     </p>
   </div>

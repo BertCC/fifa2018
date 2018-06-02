@@ -75,6 +75,9 @@ class Register extends Component {
           </div>
         </div>
       </div>
+      <div className="container">
+      Once you are registered, you will enter your predictions for the World Cup 2018 in a few clicks
+    </div>
     )
   }
 }
