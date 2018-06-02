@@ -22,7 +22,7 @@ const Welcome = () => (
     <br/>
     <h4>Rules</h4>
     <p>
-    -	Pick 1 team from each group by clicking on  <Link to="/new-selection">New Selections</Link> <b>". Groups were created following the FIFA ranking before the WC2018<br/>
+    -	Pick 1 team from each group by clicking on <Link to="/new-selection">New Selections</Link> . Groups were created following the FIFA ranking before the WC2018<br/>
     -	Each player can make 1 selection, please name it with your name like JohnDoeSet (no email involved here).<br/>
     -	How you get points:<br/>
     &nbsp;&nbsp;o	Your teams will keep gaining points for you as long as they keep playing (not eliminated). Wins, draws and goals get you points.<br/>
