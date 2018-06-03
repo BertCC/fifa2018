@@ -33,7 +33,7 @@ function UpdateScores() {
   });
 
   Matchs.find({}).map(function(match) {
-    if ((match.winner != "Draw") && (match.winner != "Future Game")) {
+    if ((match.winner != "Draw") && (match.winner != "Upcoming Game")) {
       teams[match.winner] += 3;
     }
     else {
