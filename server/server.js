@@ -38,8 +38,8 @@ function UpdateScores() {
     }
     else {
       if (match.winner === "Draw") {
-      teams[match.team1] += 1;
-      teams[match.team2] += 1;
+        teams[match.team1] += 1;
+        teams[match.team2] += 1;
       }
     }
 
