@@ -76,6 +76,11 @@ class WinnerSelect extends Component {
           <input type="radio" name="winner" value="Draw"
             onChange={this.handleChange} checked={this.state.winner === "Draw"}/> Draw
         </div>
+
+        <div style={{paddingTop: 7}}>
+          <input type="radio" name="winner" value="Future Game"
+            onChange={this.handleChange} checked={this.state.winner === "Future Game"}/> Future Game
+        </div>
       </div>
     );
   }
@@ -115,7 +120,8 @@ export default class MatchEntry extends Component {
 
     if (this.state.winner !== this.state.team1 &&
         this.state.winner !== this.state.team2 &&
-        this.state.winner !== 'Draw') {
+        this.state.winner !== 'Draw' &&
+        this.state.winner !== 'Future Game') {
       alert('Winner needs to be set!');
       return;
     }
