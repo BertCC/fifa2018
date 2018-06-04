@@ -35,7 +35,7 @@ class TopBar extends Component {
               <span className="icon-bar"></span>
             </button>
 
-            <Link className="navbar-brand" to="/">The FIFA 2018 Game</Link>
+            <Link className="navbar-brand" to="/">The FIFA 2018 Consensus Game</Link>
           </div>
 
           {currentUser &&
@@ -50,7 +50,7 @@ class TopBar extends Component {
 
                 <li>
                   <NavLink to={yourSelectionLink} activeClassName="active">
-                    <span className="glyphicon glyphicon-list-alt"></span> Your selections
+                    <span className="glyphicon glyphicon-list-alt"></span> Your selection
                   </NavLink>
                 </li>
 

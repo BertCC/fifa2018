@@ -16,9 +16,13 @@ import GameStateEdit from './GameStateEdit.jsx';
 
 const Welcome = () => (
   <div className="container">
-    <h3>Welcome to the 2018 FIFA Game for Consensus !</h3>
+    <h3>Welcome to the FIFA 2018 Consensus Game !</h3>
     <br/>
-    <p>WARNING: This is work in progress and should be used only for testing!</p>
+    <h4>Goal</h4>
+    <p>
+      Predict the best nations of the World Cup 2018 which will be in Russia between June 14th and July 15th.<br/>
+      32 nations are in the competitions. Among 8 different sets of 4 teams, select the team which will win the most.
+    </p>
     <br/>
     <h4>Rules</h4>
     <p>
