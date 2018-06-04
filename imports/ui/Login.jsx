@@ -50,7 +50,7 @@ export default class Login extends Component {
 
               <div className="form-group">
                 <label>User name</label>
-                <input className="form-control" type="text" ref="userName"/>
+                <input className="form-control" type="text" ref="userName" placeholder="register a username if you don't have an account" />
               </div>
 
               <div className="form-group">
