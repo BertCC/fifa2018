@@ -92,12 +92,12 @@ class SelectionNew extends Component {
     return (
       <div className="container">
         <h3>Create your selection:</h3>
-        <h4>Select one team from the following 8 groups. Those groups were created with the current FIFA Ranking before the World Cup</h4>
+        <h5>Select one team from the following 8 groups. Those groups were created with the current FIFA Ranking before the World Cup</h5>
         <form id="new-selection-form" action="action" onSubmit={this.handleSubmit}>
 
           <div className="form-group">
             <label>Selection name</label>
-            <input className="form-control" type="text" name="name"
+            <input className="form-control" type="text" name="name" placeholder="John Doe's selection"
               value={this.state.name}
               onChange={this.handleChange} />
           </div>

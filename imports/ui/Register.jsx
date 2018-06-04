@@ -57,7 +57,7 @@ class Register extends Component {
 
                 <div className="form-group">
                   <label>User name</label>
-                  <input className="form-control" type="text" name="userName"
+                  <input className="form-control" type="text" name="userName" placeholder="JohnDoe"
                     value={this.state.userName}
                     onChange={this.handleInputChange} />
                 </div>
