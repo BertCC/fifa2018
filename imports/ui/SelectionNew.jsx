@@ -97,7 +97,7 @@ class SelectionNew extends Component {
 
           <div className="form-group">
             <label>Selection name</label>
-            <input className="form-control" type="text" name="name" placeholder="John Doe's selection"
+            <input className="form-control" type="text" name="name" placeholder="John Doe's selection" maxlength="40"
               value={this.state.name}
               onChange={this.handleChange} />
           </div>
