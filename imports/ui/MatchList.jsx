@@ -82,7 +82,7 @@ class MatchList extends Component {
 }
 
 export default withTracker(props => {
-  const matchs = Matchs.find({}).map(function(match) {
+  const matchs = Matchs.find({}, {sort:{date: 1}}).map(function(match) {
     match.created = moment(match.created).calendar();
     if (match.date) {
       match.date = moment(match.date).calendar();
